@@ -10,4 +10,12 @@
       }
     }
   });
+
+  app.controller('TodoController', function($scope, TodoList) {
+    $scope.items = [];
+
+    TodoList.fetch().success(function(response){
+      $scope.items = response.items;
+    });
+  });
 })();
