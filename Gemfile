@@ -6,4 +6,4 @@ gem 'sqlite3'
 gem 'jquery-rails'
 
 gem "angularjs-rails"
-gem "jasmine", github: "nertzy/jasmine-gem", branch: "add-vendor-assets-to-spec-pipeline"
+gem "jasmine", github: "pivotal/jasmine-gem"

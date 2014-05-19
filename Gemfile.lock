@@ -1,7 +1,6 @@
 GIT
-  remote: git://github.com/nertzy/jasmine-gem.git
-  revision: 5bea7c8ed0d67bb2b783095a6e86d1b55d8a92a7
-  branch: add-vendor-assets-to-spec-pipeline
+  remote: git://github.com/pivotal/jasmine-gem.git
+  revision: 7100c4b0c2b9b295a04acf104ba9b999914356e5
   specs:
     jasmine (2.0.1)
       jasmine-core (~> 2.0.0)
